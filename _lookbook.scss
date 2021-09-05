@@ -1,0 +1,45 @@
+.lookbook-link {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 200px;
+  
+  .lookbook-caja {
+    height: 400px;
+    box-shadow: 1px 1px 10px #ccc;
+  }
+  img {
+    padding: 10px 10px;
+    width: 300px;
+    transition: 0.2s;
+  }
+
+  img:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+}
+.lookbook-estilo {
+  width: 90%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 100px;
+
+  .shop-hover-1 {
+    p {
+      position: relative;
+      bottom: 200px;
+      left: 200px;
+      font-size: 25px;
+      color: wheat;
+      display: none;
+    }
+  }
+  .shop-hover-1 :hover {
+    opacity: 0.5;
+    p {
+      display: block;
+    }
+  }
+}

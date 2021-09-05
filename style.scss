@@ -1,0 +1,128 @@
+@import "footer";
+@import "lookbook";
+@import "contacto";
+@import "nosotros";
+@import "queries";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #eee;
+  height: 30px;
+}
+
+.redes ul {
+  display: flex;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.redes ul li {
+  padding: 0 7px;
+  font-size: 12px;
+}
+
+.portada {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+}
+
+.portada img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  font-size: 14px;
+  padding: 0 0.5rem;
+}
+
+nav h1 {
+  margin-right: 8%;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-flex: 0;
+  -webkit-justify-content: center;
+}
+
+nav .carrito {
+  font-size: 25px;
+  margin-right: 3%;
+}
+
+.suscripcion {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-top: 70px;
+}
+
+.suscripcion p {
+  width: 100%;
+  font-size: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.form-inline {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.form-control {
+  padding: 7px 20px;
+  font-size: 14px;
+  font-family: "Heebo";
+  border-radius: 12px;
+  border-color: #eee;
+}
+
+.boton-subscribe {
+  color: #fff;
+  background-color: #000;
+  border-radius: 12px;
+  margin-left: 10px;
+  padding: 0 30px;
+  position: relative;
+  top: 22px;
+}
+
+.portada {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
